@@ -10,13 +10,13 @@ export class ViewComponent {
 
   constructor(private api:ApiService)
   {
-    api.frined().subscribe(
+    api.friend().subscribe(
       (response)=>
       {
-        this.frined=response;
+        this.friend=response;
       }
     )
   }
-  frined:any=[]
+  friend:any=[]
 
 }

@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http:HttpClient) { }
-  frined=()=>
+  friend=()=>
   {
     return this.http.get("https://dummyapifriends.herokuapp.com/view")
   }
